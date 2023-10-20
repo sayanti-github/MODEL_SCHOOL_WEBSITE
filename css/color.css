@@ -17,7 +17,7 @@
 .widget-categories ul li a:hover,  
 .widget-courses-list figure a, .widget-tag-cloud ul li a:hover, .nav_2 ul li a:hover, #mobile-header, .sidr ul li:hover>a, .sidr ul li:hover>span, .sidr ul li.active>a, .sidr ul li.active>span, .sidr ul li.sidr-class-active>a, .sidr ul li.sidr-class-active>span, 
 .btn-style, .cont_socil_meta li a:hover, .edu_masonery_thumb .caption,.abt_univ_des .btn-3:hover{
-	background-color:#06379f;
+	background-color:#0a3cab;
 }
 /*
 	  ============================================================
@@ -37,6 +37,7 @@
 /*color-1*/
 .kf_cur_catg_des.color-1 > span {
 	color: #10c45c;
+	float: none;
 }
 .kf_cur_catg_des.color-1:hover {
 	background-color: #10c45c;
@@ -46,6 +47,9 @@
 }
 .kf_cur_catg_des.color-1:hover:before {
 	background-color: #0eb053;
+}
+.kf_cur_catg_des.color-1:hover .kf_cur_catg_des.color-1 > span{
+	color: #ffffff;
 }
 /*color-2*/
 .kf_cur_catg_des.color-2 > span {
